@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     >
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Answer"
         android:layout_below="@+id/num2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="66dp" />
@@ -36,5 +37,14 @@
         android:hint="Number 2"
         android:ems="10"
         android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Addition app using Kotlin programming language" />
 
 </RelativeLayout>
